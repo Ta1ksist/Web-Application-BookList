@@ -15,3 +15,4 @@
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.pdb
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.genruntimeconfig.cache
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/ref/BookList.DataAccess.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.sourcelink.json

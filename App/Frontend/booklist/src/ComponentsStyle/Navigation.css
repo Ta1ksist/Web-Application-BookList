@@ -1,0 +1,5 @@
+nav {
+    display: block;
+    unicode-bidi: isolate;
+    box-shadow: 0 .25rem .75rem rgba(139, 137, 137, 0.47);
+}

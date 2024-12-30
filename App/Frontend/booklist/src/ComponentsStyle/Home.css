@@ -1,0 +1,67 @@
+.main-h1 {
+    padding-top: 5px;
+    padding-left: 125px;
+    font-size: 35px;
+  }
+    
+  table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+    
+  thead th {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    text-align: left;
+  }
+    
+  th{
+    font-size: 20px;
+    padding: 25px;
+  }
+    
+  tbody {
+    box-shadow: 0 .25rem .75rem rgba(139, 137, 137, 0.47);
+  }
+    
+  td {
+    font-size: 20px;
+    padding: 15px;
+  }
+    
+  tbody td {
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }  
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .25rem;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }

@@ -175,3 +175,5 @@
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/Scalar.AspNetCore.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/obj/Debug/net8.0/BookList.Api.sourcelink.json
