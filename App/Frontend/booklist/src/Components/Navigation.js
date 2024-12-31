@@ -6,7 +6,7 @@ import { BrowserRouter,
 import Home from "./Home";
 import AddBook from "./AddBook";
 import UpdateBook from "./UpdateBook";
-import DeleteBook from "./DeletBook";
+import DeleteBook from "./DeleteBook";
 import '../ComponentsStyle/Navigation.css';
 
 

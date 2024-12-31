@@ -46,10 +46,11 @@
     box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
-.btn-group-vertical {
+.btn-group-horizontal {
     display: block;
     justify-content: space-between;
     padding-left: 190px;
+    gap: 10px;
 }
     
 .btn {

@@ -38,11 +38,6 @@ tbody td {
   text-align: left;
 }  
   
-.btn-group-vertical {
-  display: flex;
-  justify-content: space-between;
-}
-  
 .btn {
   padding: 10px 20px;
   font-size: 15px;

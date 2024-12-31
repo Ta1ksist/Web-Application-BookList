@@ -37,9 +37,7 @@ function Home(){
                         <td>{book.author}</td>
                         <td>{book.year}</td>
                         <td>
-                            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                                <button type='sumbit' class="btn btn-primary">Read</button>
-                            </div>
+                            <button type='sumbit' class="btn btn-primary">Read</button>
                         </td>
                     </tr>
                 ))}

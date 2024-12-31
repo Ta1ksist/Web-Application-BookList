@@ -21,7 +21,7 @@ function AddBook(){
                 <label class="formLabel">Publish Year</label>
                 <input type="number" class="formInput" placeholder="Publish Year"></input>
             </form>
-            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+            <div class="btn-group-horizontal" role="group" aria-label="Horizontal button group">
                 <button type='sumbit' class="btn btn-primary">Add</button>
                 <button type="sumbit" class="btn btn-primary">Back</button>
             </div>
