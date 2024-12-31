@@ -39,8 +39,6 @@ function Home(){
                         <td>
                             <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
                                 <button type='sumbit' class="btn btn-primary">Read</button>
-                                <button type="sumbit" class="btn btn-primary">Update</button>
-                                <button type="sumbit" class="btn btn-primary">Delete</button>
                             </div>
                         </td>
                     </tr>

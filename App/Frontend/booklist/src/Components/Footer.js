@@ -6,7 +6,7 @@ function Footer(){
         <>
             <footer class="border-top footer text-muted">
                 <div class="container">
-                    &copy; 2024 - Book - Melikov
+                    &copy; 2025 - Book - Melikov
                 </div>
             </footer>
         </>
