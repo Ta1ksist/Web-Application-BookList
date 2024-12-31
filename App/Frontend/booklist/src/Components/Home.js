@@ -37,7 +37,7 @@ function Home(){
                         <td>{book.author}</td>
                         <td>{book.year}</td>
                         <td>
-                            <button type='sumbit' class="btn btn-primary">Read</button>
+                            <button type='sumbit' class="btn btn-primary" id='ReadButton' onClick={"Read()"}>Read</button>
                         </td>
                     </tr>
                 ))}
