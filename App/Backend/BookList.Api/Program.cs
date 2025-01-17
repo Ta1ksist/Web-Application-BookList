@@ -3,6 +3,7 @@ using BookList.DataAccess;
 using BookList.Application.Services;
 using BookList.Core.Abstactions;
 using BookList.DataAccess.Repositories;
+using SecurityHeadersMiddleware;
 
 
 var builder = WebApplication.CreateBuilder(args);

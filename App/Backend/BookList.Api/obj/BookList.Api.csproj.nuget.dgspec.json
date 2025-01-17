@@ -20,6 +20,7 @@
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,9 +68,25 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "NetEscapades.AspNetCore.SecurityHeaders": {
+              "target": "Package",
+              "version": "[1.0.0-preview.2, )"
+            },
             "Scalar.AspNetCore": {
               "target": "Package",
               "version": "[1.2.72, )"
+            },
+            "SecurityHeaders": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "SecurityHeadersMiddleware": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SecurityHeadersMiddleware.AppBuilder": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -115,6 +132,7 @@
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -177,6 +195,7 @@
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -235,6 +254,7 @@
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

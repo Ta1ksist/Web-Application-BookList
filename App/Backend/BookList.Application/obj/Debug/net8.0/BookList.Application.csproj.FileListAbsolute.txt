@@ -13,3 +13,4 @@
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/refint/BookList.Application.dll
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.pdb
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/ref/BookList.Application.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.sourcelink.json
