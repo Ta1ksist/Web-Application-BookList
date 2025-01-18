@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import  GetBooks  from '@/lib/api/FetchBook';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import '@/styles/pages/Home.css';
 
 export default function Home(){
@@ -39,7 +39,7 @@ export default function Home(){
                         <td>{book.author}</td>
                         <td>{book.year}</td>
                         <td>
-                            <Link to={`/Read/${book.id}`} className="btn btn-primary">Read</Link>
+                            <Link href={`/Read/${book.id}`} className="btn btn-primary">Read</Link>
                         </td>
                     </tr>
                 ))}

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import GetBooks from '@/lib/api/FetchBook';
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import '@/styles/pages/UpdateBook.css';
 
 
@@ -40,7 +40,7 @@ export default function UpdateBook(){
                         <td>{book.author}</td>
                         <td>{book.year}</td>
                         <td>
-                            <Link to={`/Update/${book.id}`} className="btn btn-primary">Update</Link>
+                            <Link href={`/Update/${book.id}`} className="btn btn-primary">Update</Link>
                         </td>
                     </tr>
                 ))}
