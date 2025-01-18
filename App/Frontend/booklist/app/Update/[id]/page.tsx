@@ -41,7 +41,7 @@ export default function Update(){
     };
     return(
         <main>
-            <h1 className="main-h1">Book</h1>
+            <h1 className="main-h1">Update Book</h1>
             <form action={`/Update/${id}`} method='PUT' className='updateForm'>
                 <label className="formLabel">Title</label>
                 <input type="text" className="formInput" placeholder={book.title}></input>

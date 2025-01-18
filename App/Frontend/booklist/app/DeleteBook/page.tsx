@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import GetBooks from '@/lib/api/FetchBook';
+import Link from 'next/link';
 import '@/styles/pages/DeleteBook.css';
 
 
@@ -39,7 +40,7 @@ export default function DeleteBook(){
                             <td>{book.author}</td>
                             <td>{book.year}</td>
                             <td>
-                                <button type='submit' className="btn btn-primary">Delete</button>
+                                <Link href={`/Delete/${book.id}`} className="btn btn-primary">Delete</Link>
                             </td>
                         </tr>
                     ))}

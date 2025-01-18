@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import GetBooks from "@/lib/api/FetchBook";
-import "@/styles/pages/Read.css";
+import "@/styles/pages/Delete.css";
 
 
 export default function Read() {
@@ -43,14 +43,10 @@ export default function Read() {
     router.push(`/Delete/${id}`); 
   };
 
-  const UpdateBook = () => {
-    router.push(`/Update/${id}`);
-  };
-
   return (
     <main>
-      <h1 className="main-h1">Read Book</h1>
-      <form action={`/Read/${id}`} method="GET" className="readForm">
+      <h1 className="main-h1">Delete Book</h1>
+      <form action={`/Delete/${id}`} method="DELETE" className="readForm">
         <label className="formLabel">Title: {book.title}</label>
         <label className="formLabel">Description: {book.description}</label>
         <label className="formLabel">Author: {book.author}</label>
@@ -58,7 +54,6 @@ export default function Read() {
       </form>
       <div className="btn-group-horizontal" role="group" aria-label="Horizontal button group">
         <button type="button" className="btn btn-primary" onClick={Back}>Back</button>
-        <button type="button" className="btn btn-primary" onClick={UpdateBook}>Update</button>
         <button type="button" className="btn btn-primary" onClick={DeleteBook}>Delete</button>
       </div>
     </main>
