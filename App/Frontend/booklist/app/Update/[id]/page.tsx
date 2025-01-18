@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import  GetBooks  from '@/lib/api/FetchBook';
+import  { GetBooks }  from '@/lib/api/FetchBook';
 import { useRouter, useParams } from "next/navigation";
 import '@/styles/pages/Update.css';
 

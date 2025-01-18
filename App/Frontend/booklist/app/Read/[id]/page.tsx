@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import GetBooks from "@/lib/api/FetchBook";
+import { GetBooks } from "@/lib/api/FetchBook";
 import "@/styles/pages/Read.css";
 
 

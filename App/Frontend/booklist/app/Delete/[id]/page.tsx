@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import GetBooks from "@/lib/api/FetchBook";
+import { GetBooks } from "@/lib/api/FetchBook";
 import "@/styles/pages/Delete.css";
 
 
@@ -46,7 +46,7 @@ export default function Read() {
   return (
     <main>
       <h1 className="main-h1">Delete Book</h1>
-      <form action={`/Delete/${id}`} method="DELETE" className="readForm">
+      <form action={`/Delete/${id}`} method="DELETE" className="deleteForm">
         <label className="formLabel">Title: {book.title}</label>
         <label className="formLabel">Description: {book.description}</label>
         <label className="formLabel">Author: {book.author}</label>
