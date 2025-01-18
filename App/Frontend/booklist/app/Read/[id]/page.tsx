@@ -39,11 +39,11 @@ export default function Read() {
     router.push('/')
   }
 
-  const deleteBook = () => {
+  const DeleteBook = () => {
     router.push(`/Delete/${id}`); 
   };
 
-  const updateBook = () => {
+  const UpdateBook = () => {
     router.push(`/Update/${id}`);
   };
 
@@ -58,8 +58,8 @@ export default function Read() {
       </form>
       <div className="btn-group-horizontal" role="group" aria-label="Horizontal button group">
         <button type="button" className="btn btn-primary" onClick={Back}>Back</button>
-        <button type="button" className="btn btn-primary" onClick={updateBook}>Update</button>
-        <button type="button" className="btn btn-primary" onClick={deleteBook}>Delete</button>
+        <button type="button" className="btn btn-primary" onClick={UpdateBook}>Update</button>
+        <button type="button" className="btn btn-primary" onClick={DeleteBook}>Delete</button>
       </div>
     </main>
   );
