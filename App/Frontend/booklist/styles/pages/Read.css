@@ -3,43 +3,31 @@
     padding-left: 125px;
     font-size: 35px;
 }
-      
-table {
+
+.readForm {
+    display: block;
+    padding: 15px;
+    padding-left: 190px;
+    margin-bottom: 1rem;
     width: 75%;
-    margin: 0 auto;
-    border-collapse: collapse;
 }
 
-thead th {
-    font-size: 20px;
-    padding: 15px;
-    background-color: #f8f8f8;
-    text-align: left;
+.formLabel {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 25px;
+    padding: 5px;
 }
-      
-th{
-    font-size: 20px;
-    padding: 25px;
+
+.btn-group-horizontal {
+    display: block;
+    justify-content: space-between;
+    padding-left: 190px;
+    gap: 10px;
 }
-      
-tbody {
-    box-shadow: 0 .25rem .75rem rgba(139, 137, 137, 0.47);
-}
-      
-td {
-    font-size: 20px;
-    padding: 15px;
-}
-      
-tbody td {
-    font-size: 20px;
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-}  
     
 .btn {
-    padding: 10px 20px;
+    padding: 15px 25px;
     font-size: 15px;
     text-align: center;
     text-decoration: none;

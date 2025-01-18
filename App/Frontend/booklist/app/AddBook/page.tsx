@@ -1,13 +1,14 @@
 "use client";
 
 import React from "react";
+import { useRouter } from "next/navigation";
 import '@/styles/pages/AddBook.css';
 
 
 export default function AddBook(){
-
+    const router = useRouter();
     const Back = () => {
-        window.location.assign('/');
+        router.push('/');
     };
     return(
         <main>
