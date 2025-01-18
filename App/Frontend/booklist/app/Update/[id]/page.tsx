@@ -6,7 +6,6 @@ import { GetBooks, UpdateBook as UpdateBookAPI } from "@/lib/api/FetchBook";
 import '@/styles/pages/Update.css';
 
 export default function Update() {
-    // const { id } = useParams();
     const { id } = useParams() as { id: string };
     const router = useRouter();
     const [book, setBook] = useState<Book | null>(null);
@@ -70,7 +69,7 @@ export default function Update() {
         <main>
             <h1 className="main-h1">Update Book</h1>
             <form onSubmit={handleSubmit} className="updateForm">
-                <label className="formLabel">Title</label>
+                <label className="updateFormLabel">Title</label>
                 <input
                     type="text"
                     name="title"
@@ -80,7 +79,7 @@ export default function Update() {
                     onChange={handleChange}
                     required
                 />
-                <label className="formLabel">Description</label>
+                <label className="updateFormLabel">Description</label>
                 <input
                     type="text"
                     name="description"
@@ -90,7 +89,7 @@ export default function Update() {
                     onChange={handleChange}
                     required
                 />
-                <label className="formLabel">Author</label>
+                <label className="updateFormLabel">Author</label>
                 <input
                     type="text"
                     name="author"
@@ -100,7 +99,7 @@ export default function Update() {
                     onChange={handleChange}
                     required
                 />
-                <label className="formLabel">Publish Year</label>
+                <label className="updateFormLabel">Publish Year</label>
                 <input
                     type="number"
                     name="year"
@@ -118,7 +117,7 @@ export default function Update() {
                     <button type="submit" className="btn btn-primary">Update</button>
                     <button
                         type="button"
-                        className="btn btn-secondary"
+                        className="btn btn-primary"
                         onClick={() => router.push('/')}
                     >
                         Back

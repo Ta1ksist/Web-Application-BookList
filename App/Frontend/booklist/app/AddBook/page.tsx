@@ -47,7 +47,7 @@ export default function AddBook() {
         <main>
             <h1 className="main-h1">Add Book</h1>
             <form onSubmit={handleSubmit} className="addForm">
-                <label className="formLabel">Title</label>
+                <label className="addFormLabel">Title</label>
                 <input
                     type="text"
                     name="title"
@@ -57,7 +57,7 @@ export default function AddBook() {
                     value={formData.title}
                     required
                 />
-                <label className="formLabel">Description</label>
+                <label className="addFormLabel">Description</label>
                 <input
                     type="text"
                     name="description"
@@ -67,7 +67,7 @@ export default function AddBook() {
                     value={formData.description}
                     required
                 />
-                <label className="formLabel">Author</label>
+                <label className="addFormLabel">Author</label>
                 <input
                     type="text"
                     name="author"
@@ -77,7 +77,7 @@ export default function AddBook() {
                     value={formData.author}
                     required
                 />
-                <label className="formLabel">Publish Year</label>
+                <label className="addFormLabel">Publish Year</label>
                 <input
                     type="number"
                     name="year"

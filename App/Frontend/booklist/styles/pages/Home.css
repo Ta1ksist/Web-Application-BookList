@@ -1,8 +1,10 @@
 .main-h1 {
-    padding-top: 5px;
-    padding-left: 125px;
-    font-size: 35px;
-  }
+  padding-top: 20px;
+  padding-left: 125px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
       
   table {
     width: 75%;
