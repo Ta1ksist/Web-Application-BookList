@@ -1,0 +1,23 @@
+FROM node:18 AS builder
+WORKDIR /App
+COPY ./Frontend/booklist/package.json ./Frontend/booklist/package-lock.json ./ 
+RUN npm ci --frozen-lockfile
+COPY ./Frontend/booklist ./
+RUN mv next.config.ts next.config.js
+RUN npm ci ts-node @babel/node --save-dev
+RUN npm ci typescript @types/react @types/node --save-dev
+RUN npm ci --save-dev @babel/cli @babel/preset-env
+RUN npm run build -- --config next.config.js
+RUN npm run build
+
+
+FROM node:18 AS runner
+WORKDIR /App
+COPY --from=builder ./Frontend/booklist/package.json ./Frontend/booklist/package-lock.json ./
+RUN npm ci --production --frozen-lockfile
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.ts ./next.config.js
+ENV NODE_ENV=production
+EXPOSE 3000
+CMD ["npm", "start"]

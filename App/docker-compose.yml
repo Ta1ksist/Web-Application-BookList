@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+        
+  booklist.api:
+      image: booklist.api
+      build:
+        context: .
+        dockerfile: ./Backend/BookList.Api/Dockerfile
+      depends_on:
+        - db
+      ports:
+        - 5100:5101
+
+  frontend:
+    build:
+      context: .
+      dockerfile: ./Frontend/booklist/dockerfile
+    ports:
+      - "3001:3000" 
+    environment:
+      NODE_ENV: production 
+    volumes:
+      - ./Frontend/booklist 
+      - /booklist/node_modules 
+    stdin_open: true
+    tty: true
+
+  db:
+      image: postgres:latest
+      restart: always
+      shm_size: 128mb
+      environment:
+        POSTGRES_DB: BooksDb
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+      ports:
+        - 5434:5432
+      volumes:
+          - postgres_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+
+volumes:
+  postgres_data: {}

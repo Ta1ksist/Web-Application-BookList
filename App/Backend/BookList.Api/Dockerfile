@@ -6,15 +6,15 @@ EXPOSE 5101
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["BookList.Api/BookList.Api.csproj", "BookList.Api/"]
-COPY ["BookList.DataAccess/BookList.DataAccess.csproj", "BookList.DataAccess/"]
-COPY ["BookList.Core/BookList.Core.csproj", "BookList.Core/"]
-COPY ["BookList.Application/BookList.Application.csproj", "BookList.Application/"]
+WORKDIR /App
+COPY ["./Backend/BookList.Api/BookList.Api.csproj", "BookList.Api/"]
+COPY ["./Backend/BookList.DataAccess/BookList.DataAccess.csproj", "BookList.DataAccess/"]
+COPY ["./Backend/BookList.Core/BookList.Core.csproj", "BookList.Core/"]
+COPY ["./Backend/BookList.Application/BookList.Application.csproj", "BookList.Application/"]
 RUN dotnet restore "BookList.Api/BookList.Api.csproj"
 COPY . .
-WORKDIR "/src/BookList.Api"
-RUN dotnet build "BookList.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/Backend/BookList.Api"
+RUN dotnet build "/Backend/BookList.Api/BookList.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
