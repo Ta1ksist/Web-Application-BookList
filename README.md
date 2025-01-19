@@ -12,7 +12,7 @@ This is a web application for managing a book catalog with support for CRUD oper
 - **React** (based on Next.js)
 - **TypeScript**
 - **SWR** (for state management)
-- CSS/SCSS or CSS-in-JS (e.g., Styled Components or Tailwind CSS)
+- CSS/Tailwind CSS
   
 ### Backend:
 - **C# ASP.NET Core**
