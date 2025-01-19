@@ -1,0 +1,24 @@
+.idea/
+
+
+/Backend/.idea/
+/Backend/.dockerignore
+
+# Default ignored files
+/Frontend/shelf/
+/Frontend/workspace.xml
+# Rider ignored files
+/Frontend/contentModel.xml
+# /.idea.Frontend.iml
+/Frontend/projectSettingsUpdater.xml
+/Frontend/modules.xml
+# Editor-based HTTP Client requests
+/Frontend/httpRequests/
+# Datasource local storage ignored files
+/Frontend/booklist/dataSources/
+/Frontend/dataSources.local.xml
+
+
+/Frontend/.idea/
+/Frontend/.hintrc
+
