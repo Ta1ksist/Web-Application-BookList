@@ -183,3 +183,5 @@
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/SecurityHeaders.dll
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/SecurityHeadersMiddleware.dll
 /Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/SecurityHeadersMiddleware.OwinAppBuilder.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/AutoMapper.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Api/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

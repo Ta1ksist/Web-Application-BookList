@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		compose.yaml = compose.yaml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookList.Auth", "BookList.Auth\BookList.Auth.csproj", "{3D54A17F-AA28-41E9-A8D3-022741320D87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,9 @@ Global
 		{16A282A9-C261-4387-AC23-25A9229A506C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A282A9-C261-4387-AC23-25A9229A506C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A282A9-C261-4387-AC23-25A9229A506C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D54A17F-AA28-41E9-A8D3-022741320D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D54A17F-AA28-41E9-A8D3-022741320D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D54A17F-AA28-41E9-A8D3-022741320D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D54A17F-AA28-41E9-A8D3-022741320D87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -44,7 +44,7 @@ public class BookRepository : IBookRepository
 
     public async Task<Guid> Update(Guid id, string title, string description, string author, int year)
     {
-        _context.Books.Where(s => s.Id == id)
+        await _context.Books.Where(s => s.Id == id)
             .ExecuteUpdateAsync(s => s
                 .SetProperty(b => b.Title, title)
                 .SetProperty(b => b.Description, description)

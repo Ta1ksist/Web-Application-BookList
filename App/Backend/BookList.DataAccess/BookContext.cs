@@ -11,12 +11,14 @@ public class BookContext : DbContext
         : base(options)
     {
     }    
-    
-    public DbSet<BookEntity> Books { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfiguration(new BookConfiguration());
+        modelBuilder.ApplyConfiguration(new UserConfiguration());
     }
+    
+    public DbSet<BookEntity> Books { get; set; }
+    public DbSet<UserEntity> Users { get; set;  }
 }

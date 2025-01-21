@@ -1,6 +1,6 @@
 using BookList.Core.Models;
 
-namespace BookList.Application.Services;
+namespace BookList.Core.Abstactions;
 
 public interface IBookService
 {
